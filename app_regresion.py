@@ -225,7 +225,7 @@ st.divider()
 # ----------------------------------------------------------------------
 # 6. Soluciones a la Actividad 14
 # ----------------------------------------------------------------------
-st.markdown("### 🧠 Respuestas a las preguntas de la Actividad 14")
+st.markdown("### 🧠 Respuestas a las preguntas del punto 14")
 
 with st.expander("Desplegar respuestas interpretadas", expanded=True):
     st.markdown(
@@ -240,7 +240,7 @@ with st.expander("Desplegar respuestas interpretadas", expanded=True):
        Revisando la tabla de `modelo.coef_`, la variable con el coeficiente con mayor valor absoluto es **`humedad`**, lo que indica que es el factor determinante para predecir si lloverá.
 
     4. **Falsos Positivos vs. Falsos Negativos (Umbral 0.5):**  
-       * **Falso Positivo (FP = {fp}):** El modelo predice lluvia pero hace buen tiempo. *En la vida real:* Llevas paraguas innecesariamente.  
-       * **Falso Negativo (FN = {fn}):** El modelo predice día seco pero termina lloviendo. *En la vida real:* Saliste confiado y te terminas mojando bajo la lluvia.
+       * **Falso Positivo (FP = {fp}):** El modelo predice lluvia pero hace buen tiempo. *En la vida real:* Llevas sombrilla innecesariamente.  
+       * **Falso Negativo (FN = {fn}):** El modelo predice día seco pero termina lloviendo. *En la vida real:* Saliste confiado y te terminas mojando.
     """
     )
